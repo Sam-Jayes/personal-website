@@ -1,6 +1,11 @@
+
+/*=========================
+          sections
+===========================*/
 body {
     background: black;
-    
+    font-family:'Times New Roman', Times, serif;
+    font: small-caps;
 }
 
 header {
@@ -11,15 +16,6 @@ header {
     margin: 0%;
     border: 0%;
     z-index: 1;
-}
-
-.head_line {display:inline;
-            vertical-align: middle;
-}
-
-h1 {color: rgb(174, 0, 255);
-    font-weight: 900;
-    font-size: 500%;
 }
 
 main {
@@ -35,9 +31,10 @@ nav {
     background: white;
     width: 40%;
     margin: auto;
-    text-align: center;
+    /*text-align: center;*/
     border: grey;
     border-style: solid;
+    font-size: 150%;
     /*min width*/
 }
 
@@ -56,11 +53,40 @@ footer {
     top:85%
 }
 
+.head_line {display:inline;
+            vertical-align: middle;
+}
+
+
+/*================================
+       wrighting
+=================================*/
+
+h1 {color: rgb(174, 0, 255);
+    font-weight: 900;
+    font-size: 500%;
+}
+
 ul{
-    display: inline-block
+    display: inline-block;
+    margin-left:50%;
+    transform: translate(-50%,0%)
 }
 
 table {
     display: inline-block;
     border-style: solid;
+}
+
+/*===================================
+        other
+====================================*/
+
+a:link{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    color:blueviolet;
+    text-decoration: underline;
 }
