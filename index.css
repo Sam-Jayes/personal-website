@@ -6,24 +6,23 @@ body {
     background: black;
     font-family:'Times New Roman', Times, serif;
     font: small-caps;
+    margin: auto;
 }
 
 header {
     background:white; 
     position: fixed; 
     top: 0px;
-    width: 100vw; height: 15%;
+    width: 100vw; height: 15vh;
     margin: 0%;
     border: 0%;
     z-index: 1;
 }
 
 main {
-    position: absolute;
     background:blue;
-    top: 15%;
-    width: 98%;
-    border: 100px, orange; 
+    margin-top: 15vh;
+    width: 100%; min-height: 74vh;
     z-index: 0;
 }
 
@@ -46,10 +45,11 @@ summary {
 
 footer {
     background: white;
-    height: 15%;
+    height: 10vh;
     text-align: center;
     border-top: grey;
-    top:85%
+    /*margin-top:85vh;*/
+    z-index: 0;
 }
 
 .head_line {display:inline;
@@ -75,6 +75,10 @@ ul{
 table {
     display: inline-block;
     border-style: solid;
+}
+
+#MySummary{
+    margin: 0px;
 }
 
 /*===================================
