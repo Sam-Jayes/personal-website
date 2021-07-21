@@ -3,7 +3,7 @@
           sections
 ===========================*/
 body {
-    background: black;
+    background: blueviolet;
     font-family:'Times New Roman', Times, serif;
     font-variant: small-caps;
     margin: auto;
@@ -19,7 +19,7 @@ header {
 }
 
 main {
-    background:blue;
+    background: white;
     margin-top: 15vh;
     width: 100%; min-height: 74vh;
     z-index: 0;
@@ -36,7 +36,7 @@ nav {
 
 
 summary {
-    background:green;
+    background:;
     margin: auto;
     width: 60%
 }
@@ -58,7 +58,7 @@ footer {
        wrighting
 =================================*/
 
-h1 {color: rgb(174, 0, 255);
+h1 {color: blueviolet;
     font-weight: 900;
     font-size: 500%;
 }
