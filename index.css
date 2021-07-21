@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background:white; 
+    background: rgb(227, 207, 247); 
     position: fixed; 
     top: 0px;
     width: 100vw; height: 15vh;
@@ -44,11 +44,13 @@ summary {
 }
 
 footer {
-    background: white;
+    background: rgb(227, 207, 247);
     height: 10vh;
     text-align: center;
     border-top: grey;
     z-index: 0;
+    border-top-style: solid;
+    border-top-color: grey;
 }
 
 .head_line {display:inline;
@@ -86,7 +88,7 @@ a:hover{
 
 table {
     display: inline-block;
-    border-style: solid;
+    /*border-style: solid;*/
 }
 
 #MySummary{
