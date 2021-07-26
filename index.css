@@ -93,8 +93,10 @@ a:hover{
 }
 
 table {
-    display: inline-block;
-    /*border-style: solid;*/
+    /*display: inline-block;*/
+    width:70%;
+    margin-left:50%;
+    transform: translate(-50%,0%);
 }
 
 #MySummary{
